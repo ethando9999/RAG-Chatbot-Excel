@@ -3,9 +3,13 @@ import requests
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
+from app import settings
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Define your FastAPI endpoint
-API_URL = "http://localhost:3000/ask"  # Update with your API URL
+API_URL = f"http://{settings.host}:{settings.port}/ask"  # Update with your API URL
 
 # Streamlit UI
 st.title("Excel Q&A Application")
