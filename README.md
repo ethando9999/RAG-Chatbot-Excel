@@ -3,7 +3,11 @@
 ## Overview
 
 **RAG Chatbot Excel** is a chatbot system that allows users to ask questions and interact with data from an Excel file. The system processes user queries and provides answers based on the content of the Excel file. In addition, the chatbot can generate charts upon request to visually represent data insights.
-![Result](data/result.jpg)
+
+<p align="center">
+  <img src="data/result.jpg" alt="Result" />
+</p>
+
 ## Features
 
 - **Excel File Input**: Accepts an Excel file as input for data analysis.
@@ -30,12 +34,16 @@
 
 3. Set up the environment by configuring API keys and any necessary tokens for the chatbot to function.
 
-4. Run the application:
+4. Run the server:
 
    ```bash
-   python main.py
+   python server.py
    ```
+5. Run the web page:
 
+   ```bash
+   python web_page.py
+   ```
 ## Usage
 
 1. Upload your Excel file through the chatbot interface or specify a file path.
