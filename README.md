@@ -16,8 +16,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/rag-chatbot-excel.git
-   cd rag-chatbot-excel
+   git clone https://github.com/ethando9999/RAG-Chatbot-Excel.git
+   cd RAG-Chatbot-Excel
    ```
 
 2. Create a virtual environment and install dependencies:
@@ -63,10 +63,13 @@ The chatbot will process the query and either return the answer in text or gener
 
 ## Technologies Used
 
-- **Python**: Core programming language.
-- **Pandas**: For reading and processing Excel files.
-- **Matplotlib/Seaborn**: For generating visual charts.
-- **RAG (Retrieval-Augmented Generation)**: For answering questions based on Excel data.
+- **FastAPI**: A modern, fast (high-performance) web framework for building APIs.
+- **Uvicorn**: A lightning-fast ASGI server for serving FastAPI applications.
+- **Pandas**: A powerful data manipulation library used for reading and processing Excel files.
+- **LangChain**: A framework for building applications powered by language models, used for handling user queries and managing the chatbot logic.
+- **FAISS-CPU**: A library for efficient similarity search and clustering of dense vectors, used to improve query retrieval performance.
+- **Streamlit**: A fast and simple way to build custom user interfaces and display charts.
+- **Matplotlib**: A plotting library used for creating charts and visualizations based on user requests.
 
 ## Contributing
 

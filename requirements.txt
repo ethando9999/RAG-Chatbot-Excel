@@ -7,3 +7,4 @@ langchain_text_splitters
 faiss-cpu
 streamlit
 matplotlib
+python-dotenv
