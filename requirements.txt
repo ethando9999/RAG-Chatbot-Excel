@@ -1,0 +1,9 @@
+fastapi
+uvicorn 
+pandas 
+langchain_community 
+langchain_openai 
+langchain_text_splitters
+faiss-cpu
+streamlit
+matplotlib
