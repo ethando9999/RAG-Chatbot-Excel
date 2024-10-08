@@ -70,7 +70,7 @@ The chatbot will process the query and either return the answer in text or gener
    - Bot: [Bar chart is generated and displayed.]
 
 ## Technologies Used
-
+- **LLMs**: gpt-4o, text-embedding-3-large
 - **FastAPI**: A modern, fast (high-performance) web framework for building APIs.
 - **Uvicorn**: A lightning-fast ASGI server for serving FastAPI applications.
 - **Pandas**: A powerful data manipulation library used for reading and processing Excel files.
